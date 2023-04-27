@@ -146,12 +146,6 @@ parameters:
   appname: unique-0b12e7ad
 build-parameters:
   before-all:
-<<<<<<< HEAD
-  - builder: custom
-    commands:
-    - npx -p @sap/cds-dk cds build --production
-=======
     - builder: custom
       commands:
         - npx -p @sap/cds-dk cds build --production
->>>>>>> 85de2bd (cds build config in root package.json was wrong)
