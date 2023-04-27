@@ -14,6 +14,7 @@
         "passport": "^0.4.1"
     },
     "scripts": {
+<<<<<<< HEAD
         "start": "cds serve srv/gen/srv/csn.json"
     },
     "engines": {
@@ -36,3 +37,11 @@
         }
     }
 }
+=======
+        "start": "cds serve srv/csn.json"
+    },
+    "engines": {
+        "node": "14.X"
+    }
+}
+>>>>>>> 85de2bd (cds build config in root package.json was wrong)
